@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClipSync.Maui.Pages.LoginPage">
+
+    <!-- <?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:pincopymaui.Controls"
+             x:Class="pincopymaui.Pages.LoginPage"
+             Title="LoginPage"> -->
+    <ContentPage.Resources>
+        <ResourceDictionary>            
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="LemonChiffon"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontFamily" Value="Poppins-SemiBold"/>
+            </Style>
+
+            <Style TargetType="Button">                
+                <Setter Property="FontFamily" Value="Poppins-SemiBold"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+</ContentPage>
